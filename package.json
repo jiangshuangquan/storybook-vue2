@@ -5,16 +5,37 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",   
+    "test-storybook": "test-storybook"
   },
   "dependencies": {
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/testing-vue": "^0.0.3",
+    "@vue/test-utils": "^2.0.0",
     "core-js": "^3.6.5",
+    "dayjs": "^1.11.3",
+    "element-ui": "^2.15.9",
+    "lodash": "^4.17.21",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-storyshots": "^6.5.9",
+    "@storybook/addon-storyshots-puppeteer": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/test-runner": "^0.2.0",
+    "@storybook/vue": "^6.5.9",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.14",
@@ -24,10 +45,18 @@
     "@vue/cli-service": "~4.5.14",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-loader": "^8.2.5",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-storybook": "^0.5.12",
     "eslint-plugin-vue": "^6.2.2",
+    "jest": "27",
+    "jest-vue-preprocessor": "^1.7.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "puppeteer": "^14.4.1",
     "typescript": "~4.1.5",
+    "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.11"
   }
 }

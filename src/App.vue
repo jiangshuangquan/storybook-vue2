@@ -18,6 +18,8 @@ export default class App extends Vue {}
 </script>
 
 <style>
+@import 'element-ui/lib/theme-chalk/index.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
